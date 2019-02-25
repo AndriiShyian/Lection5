@@ -1,6 +1,7 @@
-const array = [2, 4, 6, 8, 9];
-console.log(array[randomNumber(array)]);
-function randomNumber(array){
-const arraysLength = array.length - 1;
-return (Math.random() * arraysLength).toFixed();
+
+function randomNumber(from, to){
+return (Math.random() * (to - from) + from).toFixed();
+// const arraysLength = array.length - 1;
+// return (Math.random() * arraysLength).toFixed();
 }
+console.log(randomNumber(10,20));
