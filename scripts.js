@@ -22,5 +22,10 @@ const car2 = {
         maxSpeed: '220',
         model:'mustang'
     };
-   
+    const car = {
+        color: 'white',
+        name: 'audi',
+        maxSpeed: '180',
+        model:'A6'
+    };
 console.log(car);
